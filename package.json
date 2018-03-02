@@ -1,8 +1,8 @@
 {
-  "name": "gulp-gh-pages",
-  "version": "0.5.4",
+  "name": "gulp-gh-pages-will",
+  "version": "0.5.5",
   "description": "gulp plugin to publish contents to Github pages",
-  "repository": "shinnn/gulp-gh-pages",
+  "repository": "willianjusten/gulp-gh-pages",
   "license": "MIT",
   "author": "Micheal Benedict <micheal@visionmasterdesigns.com> (https://github.com/rowoot)",
   "contributors": [
@@ -35,7 +35,7 @@
     "coverage": "istanbul cover _mocha test.js -x=test.js -- --timeout 50000"
   },
   "dependencies": {
-    "gift": "^0.7.0",
+    "gift": "0.10.2",
     "gulp-util": "^3.0.7",
     "readable-stream": "^2.0.4",
     "rimraf": "^2.4.4",
