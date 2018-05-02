@@ -14,7 +14,7 @@
 [Use npm](https://docs.npmjs.com/cli/install).
 
 ```sh
-npm install --save-dev gulp-gh-pages
+npm install --save-dev gulp-gh-pages-will
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ Define a `deploy` task in your `gulpfile.js` (as below) which can be used to pus
 
 ```javascript
 var gulp = require('gulp');
-var ghPages = require('gulp-gh-pages');
+var ghPages = require('gulp-gh-pages-will');
 
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')
@@ -40,7 +40,7 @@ gulp deploy
 ## API
 
 ```javascript
-var ghPages = require('gulp-gh-pages');
+var ghPages = require('gulp-gh-pages-will');
 ```
 
 ### ghPages([*options*])
